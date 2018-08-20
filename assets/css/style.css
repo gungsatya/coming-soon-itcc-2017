@@ -1,0 +1,74 @@
+/*
+* 
+* Style Coming Soon ITCC 2017
+* by Satya Wibawa
+*
+* http://digiforest.web.id
+* 
+*/
+body{
+	background-color: #FAFAFA;
+	background-size: 100%;
+  	background-color: #fff;
+  	background-image: url('../img/bg.jpg');
+  	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.body{
+	padding-top: 5vh;
+	min-height: 80vh;
+}
+@media (min-width: 40.0rem) { 
+	.body{
+		padding-top: 15vh;
+	}
+}
+.left-side{
+	text-align: right;
+	padding: 50px;
+}
+.right-side{
+	padding: 5px;
+	background-image: url('../img/shadow1.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.video-container {
+	display: block;
+	width: 100%;
+	margin:0 0 0 0;
+	padding-bottom: 10%;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	display: block;
+	float: left;
+	padding:0;
+	margin:0 0 20px 0;
+	width: 100%;
+}
+#thevideo{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	display: block;
+}
+#thevideo iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.logo{
+	height: 10vh;
+	width: auto;
+	display: inline;
+}
+.foot{
+	height: 20vh;
+}
